@@ -1,4 +1,5 @@
 import React from "react";
+import "./EmpDir.css";
 
 function EmpDir(props) {
     const Row = (props) => {
