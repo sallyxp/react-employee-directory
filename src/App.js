@@ -22,13 +22,13 @@ class App extends React.Component {
       const response = await API.getUsers();
       console.group(response.data.results);
 
-      const empDB = response.data.results.map(x => ({
-        img: x.picture.medium,
-        lastName: x.name.last,
-        firstName: x.name.first,
-        phone: x.phone,
-        cell: x.cell,
-        email: x.email
+      const empDB = response.data.results.map(emp => ({
+        img: emp.picture.medium,
+        lastName: emp.name.last,
+        firstName: emp.name.first,
+        phone: emp.phone,
+        cell: emp.cell,
+        email: emp.email
       }));
 
       this.setState({ users: empDB, usersFiltered: empDB });
@@ -40,7 +40,7 @@ class App extends React.Component {
 
   handleInput = (val) => {
     this.setState({
-      users: this.state.usersFiltered.filter((x) => x.firstName.includes(val)),
+      users: this.state.usersFiltered.filter((emp) => emp.firstName.includes(val)),
     });
   };
 
@@ -104,9 +104,8 @@ class App extends React.Component {
         <h1 className="text-center mb-4 searchbar">Employee Directory</h1>
 
         <label className="text-center mb-4" htmlFor="text">
-          <input className="text-center mb-4" placeholder="Search" type="text"
+          <input className="text-center  mb-8 "  placeholder="Search on firstname" type="text"
             onChange={(e) => this.handleInput(e.target.value)} /></label>
-
         <EmpDir employees={this.state.users} sortTable={this.sortTable} />
       </div>
     );
