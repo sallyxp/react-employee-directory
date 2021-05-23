@@ -5,7 +5,7 @@ function EmpDir(props) {
     const Row = (props) => {
         return (
             <tr>
-                <td className="align-middle"><img src={props.employee.img} /></td>
+                <td className="align-middle"><img src={props.employee.img} alt={props.firstName}/></td>
                 <td className="text-center align-middle">{props.employee.firstName + " " + props.employee.lastName}</td>
                 <td className="text-center align-middle">{props.employee.phone}</td>
                 <td className="text-center align-middle">{props.employee.cell}</td>
