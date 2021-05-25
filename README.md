@@ -15,7 +15,7 @@ https://calm-eyrie-16059.herokuapp.com/
 - [Contact Me](#contact-me)
 
 This system has the following landing page:
-![alt text](/ReadmeImages/LandingPage.png) 
+![alt text](ReadmeImages/LandingPage.png) 
 
 ## *Installation*
 To run this webpage, click on the Heroku link above.
@@ -26,12 +26,12 @@ To run this webpage, click on the Heroku link above.
 
 Clicking on Name 🔻 will sort the employee table by their first name:
 
-![alt text](/ReadmeImages/SortEmployee.png) 
+![alt text](ReadmeImages/SortEmployee.png) 
 
 it is possible to search on the first name of an employee by typing their first name (case sensitive) or part of their first name inside and pressing return inside the 'Search on firstname' box.
 
 The Stats Page
-![alt text](/ReadmeImages/SortEmployee.png) 
+![alt text](ReadmeImages/SortEmployee.png) 
 
  ## Credits
  1. BCS for their timely support.
