@@ -1,0 +1,14 @@
+html, body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1 {
+    color: palegoldenrod;
+    text-shadow: black 2px 1px;
+    background-color: rgb(200, 236, 193);
+    padding: 2rem;
+    font-style: italic;
+
+
+}
