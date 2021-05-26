@@ -30,8 +30,7 @@ Clicking on Name 🔻 will sort the employee table by their first name:
 
 it is possible to search on the first name of an employee by typing their first name (case sensitive) or part of their first name inside and pressing return inside the 'Search on firstname' box.
 
-The Stats Page
-![alt text](ReadmeImages/SortEmployee.png) 
+![alt text](ReadmeImages/SearchName.png) 
 
  ## Credits
  1. BCS for their timely support.
